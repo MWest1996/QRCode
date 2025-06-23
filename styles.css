@@ -1,0 +1,15 @@
+:root{
+    --color-white: hsl(0, 0%, 100%);
+    --color-slate-300: hsl(212, 45%, 89%);
+    --color-slate-500: hsl(216, 15%, 48%);
+    --color-slate-700: hsl(218, 44%, 22%);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+h2{
+    font-size: 15px;
+}
