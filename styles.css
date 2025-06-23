@@ -7,9 +7,34 @@
 
 @font-face {
     font-family: Outfit;
-    src: url(https://fonts.google.com/specimen/Outfit);
+    src: url(files/Outfit-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: var(--color-slate-300);
 }
 
 h2{
     font-size: 15px;
+    font-family: Outfit;
+    text-align: center;
+}
+
+h1{
+    font-family: Outfit;
+}
+
+#mainContainer{
+    margin: auto;
+    width: 375px;
+    background-color: var(--color-white);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+div > p > img {
+    display: block;
+    margin: auto;
+    width: 350px;
+    border-radius: 10px;
 }
