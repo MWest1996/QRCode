@@ -3,6 +3,7 @@
     --color-slate-300: hsl(212, 45%, 89%);
     --color-slate-500: hsl(216, 15%, 48%);
     --color-slate-700: hsl(218, 44%, 22%);
+    font-family: Outfit, Arial, Helvetica, sans-serif;
 }
 
 @font-face {
@@ -13,10 +14,8 @@
 
 body{
     background-color: var(--color-slate-300);
-    justify-content: center;
     height: 100vh;
     display: flex;
-    align-items: center;
 }
 
 *{
@@ -28,24 +27,26 @@ body{
 p{
     font-size: 1rem;
     font-weight: 400;
-    font-family: Outfit, Arial;
+    font: Outfit, Arial, Helvetica, sans-serif;
     text-align: center;
     color: var(--color-slate-500);
-    margin: 1rem;
+    margin: .5rem 2rem;
 }
 
 h1 {
-    font-family: Outfit, Arial;
-    margin: 0 1em;
+    font: Outfit, Arial, Helvetica, sans-serif;
+    margin: 0 .5rem;
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
     color: var(--color-slate-700);
 }
-div{
+section{
     margin: auto;
-    width: 350px;
-    height: 530px;
+    /* width: 350px;
+    height: 530px; */
+    width: 20rem;
+    height: 30rem;
     background-color: var(--color-white);
     display:flex;
     flex-direction: column;
@@ -61,9 +62,11 @@ img {
 }
 
 aside{
-    font-size: .75rem;
+    font-size: .65rem;
     text-align: center;
+    font: Outfit, Arial, Helvetica, sans-serif;
     margin: auto;
+    padding-top: 1.5em;
 }
 
 a {
