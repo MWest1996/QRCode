@@ -25,7 +25,7 @@ body{
     box-sizing: border-box;
 }
 
-.subText{
+p{
     font-size: 15px;
     font-weight: 400;
     font-family: Outfit;
@@ -34,7 +34,7 @@ body{
     margin: 0 19px 20 19px;
 }
 
-.header{
+h1 {
     font-family: Outfit;
     margin: 20px 15px;
     font-size: 25px;
@@ -42,11 +42,10 @@ body{
     text-align: center;
     color: var(--color-slate-700);
 }
-
-#mainContainer{
+div{
     margin: auto;
     width: 350px;
-    height: 550px;
+    height: 530px;
     background-color: var(--color-white);
     display:flex;
     flex-direction: column;
@@ -61,14 +60,14 @@ img {
     border-radius: 10px;
 }
 
-.footer{
+footer{
     padding:0px;
     text-align: center;
     font-size: 11px;
     position:fixed;
-    bottom:0;
+    bottom: 5px;
 }
 
-div > a {
+a {
     color: hsl(228, 45%, 44%); 
 }
