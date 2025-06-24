@@ -10,55 +10,65 @@
     src: url(files/Outfit-VariableFont_wght.ttf);
 }
 
+
 body{
     background-color: var(--color-slate-300);
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
 }
 
 .subText{
     font-size: 15px;
-    width: 275px;
     font-weight: 400;
     font-family: Outfit;
     text-align: center;
     color: var(--color-slate-500);
-    padding-top: 10px;
-    padding-bottom: 40px;
-    margin: auto;
+    margin: 0 19px 20 19px;
 }
 
 .header{
     font-family: Outfit;
-    font-size: 20px;
+    margin: 20px 15px;
+    font-size: 25px;
     font-weight: 700;
     text-align: center;
     color: var(--color-slate-700);
-    margin: auto;
-    width: 275px;
-    padding-top: 5px;
 }
 
 #mainContainer{
     margin: auto;
-    max-width: 325px;
+    width: 350px;
+    height: 550px;
     background-color: var(--color-white);
+    display:flex;
+    flex-direction: column;
     border-radius: 15px;
-    padding-top: .1px;
-    display: block;
-    justify-content: center;
+    padding: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 img {
-    width: 90%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
-    margin: auto;
-    margin-top: 15px;
-    display: block;
 }
 
-footer{
+.footer{
     padding:0px;
     text-align: center;
     font-size: 11px;
+    position:fixed;
+    bottom:0;
+}
+
+div > a {
+    color: hsl(228, 45%, 44%); 
 }
